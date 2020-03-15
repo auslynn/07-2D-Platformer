@@ -19,5 +19,7 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("ui_up"):
 			motion.y = -400
 	
+	if is_on_wall():
+		queue_free()
+	
 	motion = move_and_slide(motion, UP)
-
