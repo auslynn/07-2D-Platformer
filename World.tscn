@@ -220,6 +220,7 @@ __meta__ = {
 }
 
 [node name="icon" type="Sprite" parent="Area2D"]
+modulate = Color( 0.133333, 0.890196, 0.0901961, 1 )
 position = Vector2( -0.646912, -1.13126 )
 texture = ExtResource( 1 )
 
